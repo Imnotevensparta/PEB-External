@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{7bfc1720-75b7-461c-a64c-a93499fa8d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UndocumentedFunctions">
+      <UniqueIdentifier>{81781c55-f27c-436c-9be7-1960f6887343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="undocumented.h">
+      <Filter>UndocumentedFunctions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
